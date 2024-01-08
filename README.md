@@ -32,11 +32,19 @@ This makes it harder for SOC teams or security teams to detect this kind of malw
 The email subject was written in the Russian language when translated: _Permission to hold an event_.  
 
 The content of the letter was also in strange Russian language, so we translated it like this:  
-
 _Good afternoon!_  
 _Belarusian Diaspora in Lithuania requests permission to hold the event_  
 _14.01.2024._  
 _Thank you in advance_  
+
+**Original Email Subject:** _Разрешение на проведение мероприятия_  
+**Original Email:**  
+_Добрый день!_  
+_Белорусская диаспора в Литве просит разрешение на проведение мероприятия_  
+_14.01.2024 года_  
+_Заранее благодарны_  
+**Attachment:**  
+_Запрос.doc_  
 
 ### **🕵️‍♂️ Technical analysis:**   
 
