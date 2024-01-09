@@ -106,14 +106,12 @@ The malware collects information about the system (Hardware, Software, and Netwo
 * **Application Layer Protocol [T1071]** - Powershell is sending data to a remote host
 
 **Data downloaded by powershell script (partial code shown):**  
-
 ![Screenshot_1](https://github.com/Wortexz/ltspyware/assets/26935578/87d5a742-5f2b-4134-8035-b6b8106b25ee)
 
 **Powershell is sending data to a remote host (partial code shown):**  
 ![Screenshot 2024-01-09 114318](https://github.com/Wortexz/ltspyware/assets/26935578/91596b34-5156-462d-b608-ca3a29f1aa70)
 
 **Establishes an encrypted HTTPS connection:**  
-
 ![Screenshot 2024-01-09 114433](https://github.com/Wortexz/ltspyware/assets/26935578/4be41605-153f-4270-8c9f-3115ea1f6018)
 
 
@@ -126,10 +124,16 @@ The malware collects information about the system (Hardware, Software, and Netwo
 * Command & Control - C2
 * Exfiltration: Password Stealing / info stealer
 
-## **Unpacking obfuscated code, cleaning and paching:**  
+## **Original, obfuscated code & XOR:**  
+![Screenshot_5](https://github.com/Wortexz/ltspyware/assets/26935578/a0b1da71-bf39-40a3-b014-b847558eddf5)
+![Screenshot_6](https://github.com/Wortexz/ltspyware/assets/26935578/30409fe1-c53c-4463-93ba-773a69fe4fa6)
+
+
+
+## **Unpacking obfuscated code, cleaning, and patching:**    
 **Assembly information:**  
 ![Screenshot_3](https://github.com/Wortexz/ltspyware/assets/26935578/65f1b595-3890-4768-a09d-5b28fb795d1a)
-**Modules**  
+**One of the modules**  
 ![Screenshot_2](https://github.com/Wortexz/ltspyware/assets/26935578/6300bcb0-3dae-4f81-9fd3-cc7b38391b8b)
 
 
