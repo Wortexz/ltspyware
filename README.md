@@ -105,9 +105,17 @@ The malware collects information about the system (Hardware, Software, and Netwo
 * **Execution Command and Scripting Interpreter & PowerShell [T1059.001]** - Powershell is sending data to a remote host
 * **Application Layer Protocol [T1071]** - Powershell is sending data to a remote host
 
-**Executed PowerShell script (partial code shown):**  
+**Data downloaded by powershell script (partial code shown):**  
 
 ![Screenshot_1](https://github.com/Wortexz/ltspyware/assets/26935578/87d5a742-5f2b-4134-8035-b6b8106b25ee)
+
+**Powershell is sending data to a remote host (partial code shown):**  
+![Screenshot 2024-01-09 114318](https://github.com/Wortexz/ltspyware/assets/26935578/91596b34-5156-462d-b608-ca3a29f1aa70)
+
+**Establishes an encrypted HTTPS connection:**  
+
+![Screenshot 2024-01-09 114433](https://github.com/Wortexz/ltspyware/assets/26935578/4be41605-153f-4270-8c9f-3115ea1f6018)
+
 
 **The main malware process: _certweb32.exe_ network communication:**  
 * _104.21.2.153 - Cloudflare, Inc._ 
