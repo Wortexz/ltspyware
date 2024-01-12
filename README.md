@@ -71,13 +71,20 @@ VBA Macros downloads/drops: "certweb32.exe" which is "PE32 executable Mono/.Net 
 * _clfeed.online - Cloudflare, Inc._  
 * _152.199.19.161 - Edgecast Inc._  
 * _172.67.129.87 - Cloudflare, Inc._  
-* Country: US
+* Country: US  
+
+**Most likely: Legitimate, likely compromised domains/IPs misused.**  
+
+## **Checking more in-depth - what's behind CloudFlare**
+**Domain:** _clfeed.online_  
+**IP:** _77.105.136.84_  
+**Location:** Netherlands, Amsterdam  
   
 **Most likely: Legitimate, likely compromised domains/IPs misused.**  
 
 
 
-### **👾 About the main malware/spyware (certweb32.exe):**  
+## **👾 About the main malware/spyware (certweb32.exe):**  
 **File Location: [%APPDATA%\Microsoft\Windows\certweb32.exe]**  
 
 **File description: _Company: Autodesk_**  
@@ -93,7 +100,7 @@ The malware collects information about the system (Hardware, Software, and Netwo
 
 **Anti-Reverse Engineering:**  
   
-* Uses a .NET obfuscator/packer to hide its code: "MPRESS" / "Obfuscar" obfuscator
+* Uses a .NET obfuscator/packer to hide its code: "MPRESS" / **"Obfuscar"** obfuscator
 * Contains the ability to execute applications in hidden mode (Dotnet)
 * Dotnet file contains encryption/decryption functions
   
